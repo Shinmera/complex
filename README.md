@@ -1,0 +1,1 @@
+These are implementations of various datastructures and algorithms that were shown and used in the ETHZ Datastructures & Algorithms lecture of Spring 2015. The implementations do not at all focus on being efficient, but rather try to give a clear illustration of the algorithms in order to be useful for learning purposes.

@@ -12,6 +12,17 @@
   (:export
    #:linear-find
    #:binary-find)
+  ;; hash.liso
+  (:export
+   #:hash-set
+   #:make-hash-set
+   #:insert-hash
+   #:find-hash
+   #:remove-hash
+   #:modulo-hash
+   #:linear-probing
+   #:quadratic-probing
+   #:double-hash-probing)
   ;; median.lisp
   (:export
    #:median

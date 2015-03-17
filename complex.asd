@@ -18,5 +18,6 @@
                (:file "sequence")
                (:file "find")
                (:file "sort")
-               (:file "median"))
+               (:file "median")
+               (:file "hash"))
   :depends-on ())

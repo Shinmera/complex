@@ -12,6 +12,10 @@
   (:export
    #:linear-find
    #:binary-find)
+  ;; median.lisp
+  (:export
+   #:median
+   #:median-of-medians)
   ;; sequence.lisp
   (:export
    #:map-sequence

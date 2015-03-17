@@ -17,5 +17,6 @@
   :components ((:file "package")
                (:file "sequence")
                (:file "find")
-               (:file "sort"))
+               (:file "sort")
+               (:file "median"))
   :depends-on ())

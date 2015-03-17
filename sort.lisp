@@ -105,11 +105,11 @@
                (trickle 0 end))))
   sequence)
 
-(defun quick-sort (sequence predicate &key (key #'identity) (start 0) end)
+(defun quick-sort (sequence predicate &key (key #'identity) (start 0) (pivot-func #'middle) end)
   ;; For ease of writing we use inclusive ranges for start/end for once.
   (let ((end (or end (1- (length sequence)))))
     (flet ((partition (start end)
-             (let* ((pivot end)
+             (let* ((pivot (funcall pivot-func start end))
                     (pivot-item (elt sequence pivot)))
                (rotatef (elt sequence pivot)
                         (elt sequence end))

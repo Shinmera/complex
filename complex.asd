@@ -19,5 +19,6 @@
                (:file "find")
                (:file "sort")
                (:file "median")
-               (:file "hash"))
+               (:file "hash")
+               (:file "btree"))
   :depends-on ())

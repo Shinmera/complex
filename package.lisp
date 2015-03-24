@@ -8,6 +8,46 @@
 (defpackage #:complex
   (:nicknames #:org.shirakumo.complex)
   (:use #:cl)
+  ;; avltree.lisp
+  (:export
+   #:avlnode
+   #:balance
+   #:avltree
+   #:avltree-find
+   #:avltree-insert
+   #:avltree-remove
+   #:make-avltree)
+  ;; btree.lisp
+  (:export
+   #:node
+   #:item
+   #:child-node
+   #:parent
+   #:bnode
+   #:left
+   #:right
+   #:bnode-left-p
+   #:bnode-right-p
+   #:bnode-root-p
+   #:bnode-replace
+   #:bnode-rotate-left
+   #:bnode-rotate-right
+   #:tree
+   #:root
+   #:btree
+   #:key
+   #:equality
+   #:comparison
+   #:btree=
+   #:btree<
+   #:map-btree-preorder
+   #:map-btree-inorder
+   #:map-btree-postorder
+   #:btree-find
+   #:btree-insert
+   #:make-btree
+   #:label
+   #:render-btree)
   ;; find.lisp
   (:export
    #:linear-find

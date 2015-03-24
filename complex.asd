@@ -20,5 +20,6 @@
                (:file "sort")
                (:file "median")
                (:file "hash")
-               (:file "btree"))
+               (:file "btree")
+               (:file "avltree"))
   :depends-on ())

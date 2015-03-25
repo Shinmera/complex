@@ -39,6 +39,10 @@
 (defun bnode-root-p (node)
   (typep (parent node) 'tree))
 
+(defun bnode-parent-p (node)
+  (or (left node)
+      (right node)))
+
 (defun bnode-replace (node replacement)
   (setf (parent replacement)
         (parent node))

@@ -22,5 +22,6 @@
                (:file "hash")
                (:file "btree")
                (:file "avltree")
-               (:file "kruskal"))
+               (:file "kruskal")
+               (:file "fibonacci-heap"))
   :depends-on ())

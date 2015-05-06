@@ -48,6 +48,24 @@
    #:make-btree
    #:label
    #:render-btree)
+  ;; fibonacci-heap.lisp
+  (:export
+   #:fibonacci-heap
+   #:child
+   
+   #:fibonacci-heap-cell
+   #:parent
+   #:left
+   #:right
+   #:rank
+   #:marker
+   #:value
+   
+   #:insert
+   #:minimum
+   #:find-cell
+   #:delete-minimum
+   #:delete-cell)
   ;; find.lisp
   (:export
    #:linear-find

@@ -21,5 +21,6 @@
                (:file "median")
                (:file "hash")
                (:file "btree")
-               (:file "avltree"))
+               (:file "avltree")
+               (:file "kruskal"))
   :depends-on ())

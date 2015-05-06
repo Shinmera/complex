@@ -63,6 +63,21 @@
    #:linear-probing
    #:quadratic-probing
    #:double-hash-probing)
+  ;; kruskal.lisp
+  (:export
+   #:disjoint-set-cell
+   #:parent
+   #:value
+   #:rank
+   #:union-set
+   #:find-set
+   
+   #:edge
+   #:vertices
+   #:weight
+   #:make-edge-map
+   
+   #:kruskal)
   ;; median.lisp
   (:export
    #:median

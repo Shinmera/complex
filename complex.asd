@@ -23,5 +23,6 @@
                (:file "btree")
                (:file "avltree")
                (:file "kruskal")
-               (:file "fibonacci-heap"))
+               (:file "fibonacci-heap")
+               (:file "dijkstra"))
   :depends-on ())

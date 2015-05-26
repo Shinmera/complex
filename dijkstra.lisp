@@ -42,6 +42,7 @@
                         (decrease-key neighbor tentative-distance)
                         (setf (predecessor neighbor)
                               (cons node weight)))))
+    ;; Backtrack
     (let ((path (list (list end))))
       (loop for vertex = (predecessor end)
             then (predecessor (car vertex))

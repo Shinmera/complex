@@ -55,3 +55,19 @@
 
 (defun middle (start end &optional (round #'floor))
   (funcall round (+ start (/ (- end start) 2))))
+
+(defun empty-p (sequence)
+  (etypecase sequence
+    (cons T)
+    (null NIL)
+    (vector (/= 0 (length sequence)))))
+
+(defun minimize (sequence &key (key #'identity))
+  (unless (empty-p sequence)
+    (let* ((min (elt sequence 0))
+           (mineff (funcall key min)))
+      (do-sequence (el sequence :start 1)
+        (let ((eleff (funcall key el)))
+          (when (< eleff mineff)
+            (setf min el mineff eleff))))
+      (values min mineff))))

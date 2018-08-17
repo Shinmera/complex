@@ -11,7 +11,9 @@
   :author "Nicolas Hafner <shinmera@tymoon.eu>"
   :maintainer "Nicolas Hafner <shinmera@tymoon.eu>"
   :description "A collection of datastructures and algorithms for illustrative purposes."
-  :homepage "https://github.com/Shinmera/complex"
+  :homepage "https://Shinmera.github.io/complex/"
+  :bug-tracker "https://github.com/Shinmera/complex/issues"
+  :source-control (:git "https://github.com/Shinmera/complex.git")
   :version "1.0.0"
   :serial T
   :components ((:file "package")

@@ -7,7 +7,7 @@
 
 (asdf:defsystem complex
   :name "Complex"
-  :license "Artistic"
+  :license "zlib"
   :author "Nicolas Hafner <shinmera@tymoon.eu>"
   :maintainer "Nicolas Hafner <shinmera@tymoon.eu>"
   :description "A collection of datastructures and algorithms for illustrative purposes."

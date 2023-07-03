@@ -1,15 +1,8 @@
-#|
- This file is a part of Complex
- (c) 2015 Shirakumo http://tymoon.eu (shinmera@tymoon.eu)
- Author: Nicolas Hafner <shinmera@tymoon.eu>
-|#
-
-
 (asdf:defsystem complex
   :name "Complex"
   :license "zlib"
-  :author "Nicolas Hafner <shinmera@tymoon.eu>"
-  :maintainer "Nicolas Hafner <shinmera@tymoon.eu>"
+  :author "Yukari Hafner <shinmera@tymoon.eu>"
+  :maintainer "Yukari Hafner <shinmera@tymoon.eu>"
   :description "A collection of datastructures and algorithms for illustrative purposes."
   :homepage "https://Shinmera.github.io/complex/"
   :bug-tracker "https://github.com/Shinmera/complex/issues"
